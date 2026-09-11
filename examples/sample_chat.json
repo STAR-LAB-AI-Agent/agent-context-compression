@@ -1,0 +1,8 @@
+{
+  "messages": [
+    {"role": "system", "content": "回答必须简洁，不得泄露密钥。"},
+    {"role": "user", "content": "请设计上下文压缩功能，保留决定与待办。"},
+    {"role": "assistant", "content": "决定使用结构化抽取，并加入 Token 对比。"},
+    {"role": "user", "content": "下一步需要运行测试。是否满足 50% 压缩率？"}
+  ]
+}
