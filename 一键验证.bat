@@ -2,6 +2,10 @@
 chcp 65001 >nul
 cd /d "%~dp0"
 if not exist ".venv\Scripts\python.exe" goto not_installed
+if not exist ".venv\temp" mkdir ".venv\temp"
+if errorlevel 1 goto failed
+set "TEMP=%~dp0.venv\temp"
+set "TMP=%~dp0.venv\temp"
 
 echo ================================
 echo 第一步：运行 9 个自动测试
