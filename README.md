@@ -2,11 +2,9 @@
 
 课程实验第 17 题的完整可运行实现：把较长的智能体对话压缩成结构化记忆，在保留事实、决定、待办、约束、未决问题和近期消息的同时，减少后续模型调用的 Token 消耗。项目默认离线运行，不需要 API Key。
 
-完全没有 Python 或 AI Agent 基础时，请先阅读 `新手使用说明.md`，然后依次双击 `一键安装.bat` 和 `一键验证.bat`。
-
 ## Nanobot 集成
 
-项目已适配教师提供的 `STAR-LAB-AI-Agent/Nanobot`。可直接把 `nanobot-workspace/skills/context-compactor` 复制到 Nanobot 工作区的 `skills/` 下。完整安装和验证步骤见 `NANOBOT_DEPLOYMENT.md`。
+项目已适配 `STAR-LAB-AI-Agent/Nanobot`。可直接把 `nanobot-workspace/skills/context-compactor` 复制到 Nanobot 工作区的 `skills/` 下。完整安装和验证步骤见 `NANOBOT_DEPLOYMENT.md`。
 
 ## 用户场景与三类意图
 
